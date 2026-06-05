@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Rincón del Abrigo | Moda Andina</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- EFECTO DE LUCES NEÓN DE FONDO -->
+    <div class="efecto-neon"></div>
+
+    <!-- Encabezado / Navegación -->
+    <header class="cabecera">
+        <div class="logo-contenedor">
+            <!-- ✅ LOGO: ÓVALO, DOBLE BORDE, MÁS GRANDE Y ESTÉTICO -->
+            <div class="logo-ovalo-doble">
+                <img src="logo.jpeg" alt="Logo El Rincón del Abrigo" class="logo-imagen-final">
+            </div>
+            <div class="texto-marca">
+                <h1 class="titulo-marca">EL RINCÓN DEL ABRIGO</h1>
+                <p class="subtitulo-marca">ABRIGOS • DISEÑO • CULTURA</p>
+            </div>
+        </div>
+
+        <nav class="navegacion">
+            <a href="#">COLECCIÓN</a>
+            <span>•</span>
+            <a href="#">NOSOTROS</a>
+            <span>•</span>
+            <a href="#">CATÁLOGO</a>
+            <span>•</span>
+            <a href="#">CONTACTO</a>
+        </nav>
+
+        <button class="boton-atelier">
+            <i class="fa fa-shopping-bag"></i> VER OFERTAS
+        </button>
+    </header>
+
+    <main class="contenedor-principal">
+        <!-- Título Principal -->
+        <div class="titulo-seccion">
+            <h2>COLECCIÓN 2026</h2>
+            <p>Calidez y estilo en cada prenda. Diseñado para ti.</p>
+            <div class="linea-decorativa"></div>
+        </div>
+
+        <div class="grid-principal">
+
+            <!-- Columna Izquierda: Guía Alpaguito -->
+            <div class="columna-alpaca">
+                <div class="burbuja-dialogo" id="texto-alpaguito">
+                    <p>¡Hola! Soy tu guía <span>Alpaguito</span> ✨<br><br>
+                    Bienvenido a <span>El Rincón del Abrigo</span> 💛<br><br>
+                    Déjame ayudarte a elegir 😌</p>
+                    <div class="pico-burbuja"></div>
+                </div>
+                <!-- ALPACA CON EFECTO DE LUCES NEÓN -->
+                <div class="contenedor-alpaca-neon">
+                    <img src="alpaca.png" alt="Alpaca Alpaguito" class="imagen-alpaca" id="imagen-alpaguito">
+                    <div class="brillo-neon-alpaca"></div>
+                </div>
+                <button class="boton-corazon">
+                    <i class="fa fa-heart"></i>
+                </button>
+            </div>
+
+            <!-- Columna Central: Catálogo / Libro -->
+            <div class="columna-catalogo">
+
+                <!-- 📄 PÁGINA 1: 01 - 06 -->
+                <div class="grid-ropa pagina-activa" id="pagina-1">
+                    
+                    <!-- ITEM 1 -->
+                    <div class="tarjeta-ropa borde-neon-azul">
+                        <span class="numero-item">01</span>
+                        <img src="1.jpeg" alt="Manto Imperial" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">MANTO IMPERIAL</p>
+                                <p class="precio">580 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="MANTO IMPERIAL" data-precio="580">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 2 -->
+                    <div class="tarjeta-ropa borde-neon-azul">
+                        <span class="numero-item">02</span>
+                        <img src="2.jpeg" alt="Azul Quinua" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">AZUL QUINUA</p>
+                                <p class="precio">620 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="AZUL QUINUA" data-precio="620">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 3 -->
+                    <div class="tarjeta-ropa borde-neon-rosa">
+                        <span class="numero-item">03</span>
+                        <img src="3.jpeg" alt="Capa Rosé Andina" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">CAPA ROSÉ ANDINA</p>
+                                <p class="precio">540 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="CAPA ROSÉ ANDINA" data-precio="540">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 4 -->
+                    <div class="tarjeta-ropa borde-neon-celeste">
+                        <span class="numero-item">04</span>
+                        <img src="4.jpeg" alt="Sueño de Aguayo" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">SUEÑO DE AGUAYO</p>
+                                <p class="precio">610 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="SUEÑO DE AGUAYO" data-precio="610">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 5 -->
+                    <div class="tarjeta-ropa borde-neon-dorado">
+                        <span class="numero-item">05</span>
+                        <img src="5.jpeg" alt="Esmeralda Real" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">ESMERALDA REAL</p>
+                                <p class="precio">620 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="ESMERALDA REAL" data-precio="620">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 6 -->
+                    <div class="tarjeta-ropa borde-neon-dorado">
+                        <span class="numero-item">06</span>
+                        <img src="6.jpeg" alt="Alma del Titicaca" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">ALMA DEL TITICACA</p>
+                                <p class="precio">580 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="ALMA DEL TITICACA" data-precio="580">+</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 📄 PÁGINA 2: 07 - 12 -->
+                <div class="grid-ropa" id="pagina-2">
+
+                    <!-- ITEM 7 -->
+                    <div class="tarjeta-ropa borde-neon-lila">
+                        <span class="numero-item">07</span>
+                        <img src="7.jpeg" alt="Nieve del Illampu" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">NIEVE DEL ILLAMPU</p>
+                                <p class="precio">600 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="NIEVE DEL ILLAMPU" data-precio="600">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 8 -->
+                    <div class="tarjeta-ropa borde-neon-celeste">
+                        <span class="numero-item">08</span>
+                        <img src="8.jpeg" alt="Líneas del Altiplano" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">LÍNEAS DEL ALTIPLANO</p>
+                                <p class="precio">560 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="LÍNEAS DEL ALTIPLANO" data-precio="560">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 9 -->
+                    <div class="tarjeta-ropa borde-neon-rosa">
+                        <span class="numero-item">09</span>
+                        <img src="9.jpeg" alt="Nocturna Dorada" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">NOCTURNA DORADA</p>
+                                <p class="precio">590 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="NOCTURNA DORADA" data-precio="590">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 10 -->
+                    <div class="tarjeta-ropa borde-neon-azul">
+                        <span class="numero-item">10</span>
+                        <img src="10.jpeg" alt="Luna de los Andes" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">LUNA DE LOS ANDES</p>
+                                <p class="precio">570 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="LUNA DE LOS ANDES" data-precio="570">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 11 -->
+                    <div class="tarjeta-ropa borde-neon-lila">
+                        <span class="numero-item">11</span>
+                        <img src="11.jpeg" alt="Tierra del Sol" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">TIERRA DEL SOL</p>
+                                <p class="precio">600 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="TIERRA DEL SOL" data-precio="600">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 12 -->
+                    <div class="tarjeta-ropa borde-neon-dorado">
+                        <span class="numero-item">12</span>
+                        <img src="12.jpeg" alt="Sombra Real" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">SOMBRA REAL</p>
+                                <p class="precio">610 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="SOMBRA REAL" data-precio="610">+</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 📄 PÁGINA 3: 13 - 18 -->
+                <div class="grid-ropa" id="pagina-3">
+
+                    <!-- ITEM 13 -->
+                    <div class="tarjeta-ropa borde-neon-azul">
+                        <span class="numero-item">13</span>
+                        <img src="13.jpeg" alt="Viento Andino" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">VIENTO ANDINO</p>
+                                <p class="precio">590 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="VIENTO ANDINO" data-precio="590">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 14 -->
+                    <div class="tarjeta-ropa borde-neon-rosa">
+                        <span class="numero-item">14</span>
+                        <img src="14.jpeg" alt="Fuego del Valle" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">FUEGO DEL VALLE</p>
+                                <p class="precio">630 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="FUEGO DEL VALLE" data-precio="630">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 15 -->
+                    <div class="tarjeta-ropa borde-neon-celeste">
+                        <span class="numero-item">15</span>
+                        <img src="15.jpeg" alt="Río Sagrado" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">RÍO SAGRADO</p>
+                                <p class="precio">550 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="RÍO SAGRADO" data-precio="550">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 16 -->
+                    <div class="tarjeta-ropa borde-neon-lila">
+                        <span class="numero-item">16</span>
+                        <img src="16.jpeg" alt="Cumbre Nevada" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">CUMBRE NEVADA</p>
+                                <p class="precio">640 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="CUMBRE NEVADA" data-precio="640">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 17 -->
+                    <div class="tarjeta-ropa borde-neon-dorado">
+                        <span class="numero-item">17</span>
+                        <img src="17.jpeg" alt="Oro Ancestral" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">ORO ANCESTRAL</p>
+                                <p class="precio">680 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="ORO ANCESTRAL" data-precio="680">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 18 -->
+                    <div class="tarjeta-ropa borde-neon-azul">
+                        <span class="numero-item">18</span>
+                        <img src="18.jpeg" alt="Cielo de La Paz" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">CIELO DE LA PAZ</p>
+                                <p class="precio">570 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="CIELO DE LA PAZ" data-precio="570">+</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 📄 PÁGINA 4: 19 - 24 -->
+                <div class="grid-ropa" id="pagina-4">
+
+                    <!-- ITEM 1
+                     <!-- ITEM 19 -->
+                    <div class="tarjeta-ropa borde-neon-rosa">
+                        <span class="numero-item">19</span>
+                        <img src="19.jpeg" alt="Atardecer Andino" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">ATARDECER ANDINO</p>
+                                <p class="precio">600 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="ATARDECER ANDINO" data-precio="600">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 20 -->
+                    <div class="tarjeta-ropa borde-neon-celeste">
+                        <span class="numero-item">20</span>
+                        <img src="20.jpeg" alt="Laguna Azul" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">LAGUNA AZUL</p>
+                                <p class="precio">590 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="LAGUNA AZUL" data-precio="590">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 21 -->
+                    <div class="tarjeta-ropa borde-neon-lila">
+                        <span class="numero-item">21</span>
+                        <img src="21.jpeg" alt="Flor de Cantuta" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">FLOR DE CANTUTA</p>
+                                <p class="precio">620 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="FLOR DE CANTUTA" data-precio="620">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 22 -->
+                    <div class="tarjeta-ropa borde-neon-dorado">
+                        <span class="numero-item">22</span>
+                        <img src="22.jpeg" alt="Sol del Altiplano" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">SOL DEL ALTIPLANO</p>
+                                <p class="precio">650 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="SOL DEL ALTIPLANO" data-precio="650">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 23 -->
+                    <div class="tarjeta-ropa borde-neon-azul">
+                        <span class="numero-item">23</span>
+                        <img src="23.jpeg" alt="Roca Sagrada" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">ROCA SAGRADA</p>
+                                <p class="precio">560 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="ROCA SAGRADA" data-precio="560">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 24 -->
+                    <div class="tarjeta-ropa borde-neon-rosa">
+                        <span class="numero-item">24</span>
+                        <img src="24.jpeg" alt="Llama Real" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">LLAMA REAL</p>
+                                <p class="precio">670 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="LLAMA REAL" data-precio="670">+</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 📄 PÁGINA 5: 25 - 29 -->
+                <div class="grid-ropa" id="pagina-5">
+
+                    <!-- ITEM 25 -->
+                    <div class="tarjeta-ropa borde-neon-celeste">
+                        <span class="numero-item">25</span>
+                        <img src="25.jpeg" alt="Agua de Lluvia" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">AGUA DE LLUVIA</p>
+                                <p class="precio">540 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="AGUA DE LLUVIA" data-precio="540">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 26 -->
+                    <div class="tarjeta-ropa borde-neon-lila">
+                        <span class="numero-item">26</span>
+                        <img src="26.jpeg" alt="Camino Inca" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">CAMINO INCA</p>
+                                <p class="precio">610 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="CAMINO INCA" data-precio="610">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 27 -->
+                    <div class="tarjeta-ropa borde-neon-dorado">
+                        <span class="numero-item">27</span>
+                        <img src="27.jpeg" alt="Textil Real" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">TEXTIL REAL</p>
+                                <p class="precio">630 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="TEXTIL REAL" data-precio="630">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 28 -->
+                    <div class="tarjeta-ropa borde-neon-azul">
+                        <span class="numero-item">28</span>
+                        <img src="28.jpeg" alt="Estrella Andina" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">ESTRELLA ANDINA</p>
+                                <p class="precio">590 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="ESTRELLA ANDINA" data-precio="590">+</button>
+                        </div>
+                    </div>
+
+                    <!-- ITEM 29 -->
+                    <div class="tarjeta-ropa borde-neon-rosa">
+                        <span class="numero-item">29</span>
+                        <img src="29.jpeg" alt="Reina de los Andes" class="imagen-prenda">
+                        <div class="info-item">
+                            <div>
+                                <p class="nombre-prenda">REINA DE LOS ANDES</p>
+                                <p class="precio">720 Bs.</p>
+                            </div>
+                            <button class="btn-agregar" data-nombre="REINA DE LOS ANDES" data-precio="720">+</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- ✅ PAGINACIÓN COMPLETA Y FUNCIONAL -->
+                <div class="paginacion">
+                    <button class="btn-pagina" data-pagina="anterior">&lt;</button>
+                    <button class="btn-pagina pagina-activa" data-pagina="1">1</button>
+                    <button class="btn-pagina" data-pagina="2">2</button>
+                    <button class="btn-pagina" data-pagina="3">3</button>
+                    <button class="btn-pagina" data-pagina="4">4</button>
+                    <button class="btn-pagina" data-pagina="5">5</button>
+                    <button class="btn-pagina" data-pagina="siguiente">&gt;</button>
+                </div>
+            </div>
+
+            <!-- 🛒 COLUMNA DEL CARRITO DE COMPRAS (COMPLETA) -->
+            <div class="columna-pedido">
+                <div class="caja-pedido">
+                    <h3 class="titulo-pedido">
+                        <i class="fa fa-shopping-bag"></i> TU PEDIDO
+                    </h3>
+
+                    <!-- Total y cantidad -->
+                    <div class="fila-total">
+                        <span>Total:</span>
+                        <span class="valor-total" id="total-general">0 Bs.</span>
+                    </div>
+                    <p class="texto-cantidad" id="cantidad-articulos">0 piezas seleccionadas</p>
+                    <div class="linea-separadora"></div>
+
+                    <!-- Lista de productos agregados -->
+                    <div class="lista-articulos" id="lista-carrito"></div>
+
+                    <!-- Formulario de datos -->
+                    <form class="formulario-pedido">
+                        <div class="campo">
+                            <label>NOMBRE COMPLETO</label>
+                            <input type="text" id="nombre-cliente" placeholder="Tu nombre aquí">
+                        </div>
+                        <div class="campo">
+                            <label>DIRECCIÓN</label>
+                            <input type="text" id="direccion-cliente" placeholder="Tu dirección de entrega">
+                        </div>
+                        <div class="campo">
+                            <label>NOTAS</label>
+                            <textarea id="notas-cliente" placeholder="Medidas, colores o comentarios"></textarea>
+                        </div>
+                    </form>
+
+                    <!-- Botón de enviar por WhatsApp -->
+                    <button class="boton-whatsapp" id="boton-enviar">
+                        <i class="fa fa-whatsapp"></i> ENVIAR PEDIDO
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Características del local -->
+        <div class="caracteristicas">
+            <div class="item-caract">
+                <i class="fa fa-shield"></i>
+                <p>ALTA<br>CALIDAD</p>
+            </div>
+            <div class="item-caract">
+                <i class="fa fa-pencil-ruler"></i>
+                <p>DISEÑOS<br>ÚNICOS</p>
+            </div>
+            <div class="item-caract">
+                <i class="fa fa-crown"></i>
+                <p>ATENCIÓN<br>ESPECIAL</p>
+            </div>
+            <div class="item-caract">
+                <i class="fa fa-truck"></i>
+                <p>ENVÍOS A TODO<br>EL PAÍS</p>
+            </div>
+        </div>
+
+        <!-- Frase final -->
+        <div class="frase-final">
+            "En El Rincón del Abrigo, te abrigamos con cultura y calidad."
+        </div>
+
+    </main>
+
+    <!-- Archivo JavaScript con todo el funcionamiento -->
+    <script src="script.js"></script>
+    <div class="seccion-redes" style="
+    text-align: center;
+    margin: 50px auto;
+    padding: 35px 25px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 15px;
+    max-width: 800px;
+    border: 1px solid rgba(0, 242, 234, 0.3);
+    box-shadow: 0 0 20px rgba(0, 242, 234, 0.15);
+">
+    <h3 style="
+        font-family: 'Cinzel', serif;
+        color: #fff;
+        font-size: 28px;
+        margin-bottom: 30px;
+        text-shadow: 0 0 10px rgba(255,255,255,0.3);
+    ">
+        Síguenos en nuestras redes
+    </h3>
+
+    <div style="display: flex; gap: 30px; justify-content: center; flex-wrap: wrap;">
+        <!-- Imagen de TikTok -->
+        <a href="https://vm.tiktok.com/ZS91Sy9PLbh3a-B8R8P/" target="_blank" style="
+            display: inline-block;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        " onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <img src="logo-tiktok.JPG" 
+                 alt="Logo de TikTok" 
+                 style="
+                    width: 120px;
+                    border-radius: 12px;
+                    box-shadow: 0 0 25px rgba(0, 242, 234, 0.3);
+                    border: 2px solid rgba(255,255,255,0.2);
+                    padding: 10px;
+                    background: #000;
+                 ">
+            <p style="
+                font-family: 'Inter', sans-serif;
+                color: #00f2ea;
+                font-size: 16px;
+                margin-top: 12px;
+                font-weight: 500;
+            ">TikTok</p>
+        </a>
+
+        <!-- Imagen de Facebook -->
+        <a href="https://www.facebook.com/share/1DbYxJYFWn/" target="_blank" style="
+            display: inline-block;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        " onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <img src="logo-facebook.png" 
+                 alt="Logo de Facebook" 
+                 style="
+                    width: 120px;
+                    border-radius: 12px;
+                    box-shadow: 0 0 25px rgba(24, 119, 242, 0.3);
+                    border: 2px solid rgba(255,255,255,0.2);
+                    padding: 10px;
+                    background: #000;
+                 ">
+            <p style="
+                font-family: 'Inter', sans-serif;
+                color: #1877f2;
+                font-size: 16px;
+                margin-top: 12px;
+                font-weight: 500;
+            ">Facebook</p>
+        </a>
+    </div>
+</div>
+</body>
+</html>
